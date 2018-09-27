@@ -141,7 +141,7 @@ footer {
 .work {
     position: relative;
     float: left;
-    width: 274px;
+    width: 35%;
     margin: 20px 0 25px;
     overflow: auto;
   }
@@ -219,19 +219,17 @@ footer {
     border: 0 none;
   }
 
-
-
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 768px) {
-    main, body, .nav, .bio, container
+    main, body, .nav, container
      {
         width: 100%;
     }
 }
 
 @media screen and (min-width: 992px) {
-    main, body, .nav, .bio, container
+    main, body, .nav, container
     {
         width: 100%;
     }

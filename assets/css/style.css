@@ -148,7 +148,7 @@ footer {
 }
 .work {
     position: relative;
-    /*float: left;*/
+    float: left;
     width: 40%;
     margin: 20px 0 20px 20px;
     overflow: auto;
@@ -168,7 +168,7 @@ footer {
     position: absolute;
     bottom: 10px;
     width: 100%;
-    padding: 10px;
+    padding: 5px;
     margin-left: 0;
     margin-bottom: 1;
     font-weight: 300;
@@ -188,6 +188,7 @@ footer {
   #contact-form li {
     margin-bottom: 10px;
     margin-right: 40px;
+    margin-left: 10px;
     list-style: none;
   }
   

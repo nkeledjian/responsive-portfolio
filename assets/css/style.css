@@ -139,11 +139,17 @@ footer {
     width: 100%;
     max-width: 960px;
     padding: 3px;
+    padding-bottom: 20px;
     margin: 0 0 40px;
     background: #ffffff;
     border: 1px solid #dddddd;
 }
 
+.flex-img {
+  display: flex;
+  justify-content: flex-start;
+  float: left;
+}
 /* PORTFOLIO PAGE */
 
 .work {
@@ -216,6 +222,7 @@ footer {
   input[type=submit] {
     padding: 10px 30px;
     font-size: 18px;
+    margin-left: 10px;
     color: #ffffff;
     cursor: pointer;
     background: #4aaaa5;
@@ -223,6 +230,14 @@ footer {
   }
 
 /* MEDIA QUERIES */
+
+@media screen and (min-width: 544px) {
+  .nav, #masthead
+   {
+      width: 100%;
+      overflow: auto;
+  }
+}
 
 @media screen and (min-width: 768px) {
     main, body, .nav, container

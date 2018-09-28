@@ -149,7 +149,7 @@ footer {
 .work {
     position: relative;
     /*float: left;*/
-    width: 70%;
+    width: 40%;
     margin: 20px 0 20px 20px;
     overflow: auto;
   }
@@ -167,10 +167,10 @@ footer {
   .work h3 {
     position: absolute;
     bottom: 10px;
-    width: 50%;
+    width: 100%;
     padding: 10px;
     margin-left: 0;
-    margin-bottom: 0;
+    margin-bottom: 1;
     font-weight: 300;
     line-height: 30px;
     color: #ffffff;

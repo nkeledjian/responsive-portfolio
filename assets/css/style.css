@@ -57,6 +57,10 @@ body {
     margin-left: 10px;
   }
 
+.content {
+    display: flex;
+    justify-content: center;
+}
 /* Header */
 
 #masthead {
@@ -141,11 +145,7 @@ footer {
 }
 
 /* PORTFOLIO PAGE */
-.imgwrapper {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
-}
+
 .work {
     position: relative;
     float: left;
